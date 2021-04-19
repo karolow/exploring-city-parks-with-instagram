@@ -1,0 +1,4 @@
+{{ if .Get "src" }}
+    <iframe {{ if .Get "title" }} title="{{ .Get "title" }}" {{ end }} aria-label="chart" {{ if .Get "id" }} id="{{ .Get "id" }}" {{ end }} src="{{ .Get "src" | safeURL }}" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none; margin: 30px 0 30px 0" height="462"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    </script>
+{{ end }}
