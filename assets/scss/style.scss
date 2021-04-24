@@ -90,3 +90,15 @@ body:after {
   }
 }
 {{ end }}
+
+.content {
+  h1 {
+  font-family: $font-family-heading;
+  }
+  h2 {
+  font-family: $font-family-heading;
+  }
+  h3 {
+  font-family: $font-family-heading;
+  }
+}
