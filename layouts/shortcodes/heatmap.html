@@ -1,0 +1,37 @@
+<!-- load css -->
+<link rel="stylesheet" href="/css/heatmap-bar.css">
+
+<!-- Heatmap markup -->
+<div class="chart-container heatmap-chart">
+  <div class="heatmap-holder">
+    <!-- script will create the heatmap here -->
+  </div>
+</div>
+
+<!-- dependencies -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+<!-- chart script -->
+<script type="text/javascript" src="/js/heatmap-bar.js"></script>
+<script>
+  // fetch data
+  let dataSet
+  fetch({{ if .Get "data" }} title="{{ .Get "data" }}" {{ end }})
+  .then(response => response.text())
+  .then(response => {
+    dataSet = response
+
+    // create chart with function:
+    // new heatMapChart(data, container, tooltip_label_1, tooltip_label_2, separator)
+    // data - csv data in form of raw text
+    // container - selector of container which should contain heatmap
+    // tooltip_label_1 - first part of tooltip label
+    // tooltip_label_2 - second part of tooltip label
+    // separator - int, number of row after which rows should be separated, if 0 (default) there is no separator
+
+    const chart = new heatMapChart(dataSet, ".heatmap-chart", " of ", " posts ");
+
+    // activate choosen row
+    chart.highlight({{ if .Get "highlight" }} title="{{ .Get "highlight" }}" {{ end }});
+  })
+</script>
