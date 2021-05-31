@@ -1,0 +1,3 @@
+{{ if .Get "src" }}
+    <iframe {{ if .Get "title" }} title="{{ .Get "title" }}" {{ end }} aria-label="table" {{ if .Get "id" }} id="{{ .Get "id" }}" {{ end }} src="{{ .Get "src" | safeURL }}" scrolling="no" frameborder="0" style="border: none; margin: {{ if .Get "margin" }} {{ .Get "margin" }} {{ else }} {{ "30px 0 30px 0" }} {{ end }}" width="{{ if .Get "width" }} {{ .Get "width" }} {{ else }} {{ "290px" }} {{ end }}" height="{{ .Get "height" | safeURL }}"></iframe>
+{{ end }}
