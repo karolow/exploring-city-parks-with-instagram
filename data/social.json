@@ -1,12 +1,7 @@
 [
     {
         "name": "Github",
-        "link": "https://github.com/zerostaticthemes/hugo-serif-theme",
+        "link": "https://github.com/karolow/exploring-the-city-parks-with-instagram",
         "image": "images/social/github.svg"
-    },
-    {
-        "name": "Twitter",
-        "link": "https://twitter.com/zerostaticio",
-        "image": "images/social/twitter.svg"
     }
 ]
