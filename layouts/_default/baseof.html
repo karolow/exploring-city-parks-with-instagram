@@ -44,6 +44,12 @@
   <script type="text/javascript" src="{{ ($scripts | minify | fingerprint).RelPermalink }}"></script>
   {{ end }}
 
+  {{ if .Site.IsServer }}
+  <!-- Dont add stats counter to localhost -->
+  {{ else }}
+  <script data-goatcounter="https://karpie.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+  {{ end }}
+
 </body>
 
 </html>
