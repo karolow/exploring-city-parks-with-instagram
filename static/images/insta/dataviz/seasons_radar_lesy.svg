@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="lesy-seasons-radar" class="seasons-radar seasons-radar-highlighted" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 195 195" style="enable-background:new 0 0 195 195;" xml:space="preserve" onclick="">
+<g class="radar">
+	<g>
+		<g class="scales">
+			<line class="scale-line" x1="97.22" y1="97.7" x2="9.85" y2="10.05"/>
+			<line class="scale-line" x1="97.22" y1="97.7" x2="10" y2="185"/>
+			<line class="scale-line" x1="97.22" y1="97.7" x2="184.19" y2="184.75"/>
+			<line class="scale-line" x1="97.22" y1="97.7" x2="184.85" y2="10"/>
+		</g>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 51.0892 69.1951)" class="value typo">3.4%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 137.8204 156.5489)" class="value typo">10.2%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 112.3742 101.6853)" class="value typo">0.4%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 57.8914 155.1694)" class="value typo">7%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 57.123 53.1968)" class="label typo">#spring</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 148.8392 145.5356)" class="label typo">#autumn</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 101.393 90.672)" class="label typo">#summer</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 35.8414 155.2248)" class="label typo">#winter</text>
+	</g>
+	<circle class="hidden-circle" cx="97.14" cy="97.75" r="75"/>
+	<polygon class="radar-polygon" points="83.54,84.15 65.41,129.47 142.46,143.07 97.14,97.75 	"/>
+	<g>
+		<text transform="matrix(1 0 0 1 135.6606 99.3427)" class="typo park-name"><tspan x="0" y="0">Mestské</tspan><tspan x="0" y="14">lesy</tspan></text>
+	</g>
+	<circle class="dot" cx="97.14" cy="97.75" r="1.39"/>
+</g>
+</svg>

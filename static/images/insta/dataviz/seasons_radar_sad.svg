@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="sad-seasons-radar" class="seasons-radar seasons-radar-highlighted" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 195 195" style="enable-background:new 0 0 195 195;" xml:space="preserve" onclick="">
+<g class="radar">
+	<g>
+		<g class="scales">
+			<line class="scale-line" x1="97.38" y1="97.7" x2="10" y2="10.05"/>
+			<line class="scale-line" x1="97.38" y1="97.7" x2="10.15" y2="185"/>
+			<line class="scale-line" x1="97.38" y1="97.7" x2="184.35" y2="184.75"/>
+			<line class="scale-line" x1="97.38" y1="97.7" x2="185" y2="10"/>
+		</g>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 54.8687 72.8192)" class="value typo">2.8%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 137.397 155.9697)" class="value typo">10.9%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 124.5292 88.6853)" class="value typo">3.1%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 79.421 133.7931)" class="value typo">1.9%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 60.8838 56.834)" class="label typo">#spring</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 148.397 144.9694)" class="label typo">#autumn</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 113.5292 77.685)" class="label typo">#summer</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 63.8392 127.3748)" class="label typo">#winter</text>
+	</g>
+	<circle class="hidden-circle" cx="97.37" cy="97.71" r="75"/>
+	<polygon class="radar-polygon" points="88.31,88.65 92.84,102.25 142.69,143.03 110.97,84.12 	"/>
+	<g>
+		<text transform="matrix(1 0 0 1 135.1567 99.3556)" class="typo park-name"><tspan x="0" y="0">Sad Janka</tspan><tspan x="0" y="14">Kráľa</tspan></text>
+	</g>
+	<circle class="dot" cx="97.37" cy="97.71" r="1.39"/>
+</g>
+</svg>

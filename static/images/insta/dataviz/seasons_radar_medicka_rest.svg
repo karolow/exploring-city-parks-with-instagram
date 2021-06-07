@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="medicka-rest-seasons-radar" class="seasons-radar seasons-radar-rest" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 390 390" style="enable-background:new 0 0 390 390;" xml:space="preserve" onclick="">
+<g class="radar">
+	<circle class="hidden-circle" cx="97.38" cy="97.7" r="75"/>
+	<g>
+		<text transform="matrix(1 0 0 1 136.968 99.2947)" class="typo park-name"><tspan x="0" y="0">Jazero </tspan><tspan x="0" y="14">Rohlík</tspan></text>
+	</g>
+	<g class="scales">
+		<line class="scale-line" x1="97.38" y1="97.7" x2="10" y2="10.05"/>
+		<line class="scale-line" x1="97.38" y1="97.7" x2="10.15" y2="185"/>
+		<line class="scale-line" x1="97.38" y1="97.7" x2="184.35" y2="184.75"/>
+		<line class="scale-line" x1="97.38" y1="97.7" x2="185" y2="10"/>
+	</g>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 56.4506 74.4017)" class="value typo">2.3%</text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 113.1885 131.7623)" class="value typo">4.6%</text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 134.5276 78.6844)" class="value typo">5.4%</text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 89.3546 123.8601)" class="value typo">0%</text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 62.4656 58.4167)" class="label typo">#spring</text>
+	<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 124.1885 120.7623)" class="label typo">#autumn</text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 123.5276 67.6844)" class="label typo">#summer</text>
+	<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 67.2859 123.9288)" class="label typo">#winter</text>
+	<polygon class="radar-polygon" points="88.32,88.64 97.38,97.7 115.51,115.83 120.04,75.04 	"/>
+	<circle class="dot" cx="97.38" cy="97.7" r="1.39"/>
+</g>
+<g class="radar">
+	<g>
+		<g class="scales">
+			<line class="scale-line" x1="97.38" y1="292.7" x2="10" y2="205.05"/>
+			<line class="scale-line" x1="97.38" y1="292.7" x2="10.15" y2="380"/>
+			<line class="scale-line" x1="97.38" y1="292.7" x2="184.35" y2="379.75"/>
+			<line class="scale-line" x1="97.38" y1="292.7" x2="185" y2="205"/>
+		</g>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 56.5603 269.5127)" class="value typo">2.5%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 119.4582 333.0331)" class="value typo">6.2%</text>
+		<text transform="matrix(0.7068 -0.7074 0.7068 0.7074 116.4368 291.6893)" class="value typo">1.5%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 72.6485 335.568)" class="value typo">2.7%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 62.5753 253.5277)" class="label typo">#spring</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 130.4582 322.0331)" class="label typo">#autumn</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 105.5281 280.6858)" class="label typo">#summer</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 57.0669 329.1497)" class="label typo">#winter</text>
+	</g>
+	<circle class="hidden-circle" cx="97.37" cy="292.76" r="75"/>
+	<polygon class="radar-polygon" points="88.3,283.7 88.3,301.83 124.56,319.96 101.9,288.23 	"/>
+	<g>
+		<text transform="matrix(1 0 0 1 135.1302 294.3557)" class="typo park-name"><tspan x="0" y="0">Horský </tspan><tspan x="0" y="14">park</tspan></text>
+	</g>
+	<circle class="dot" cx="97.37" cy="292.76" r="1.39"/>
+</g>
+<g class="radar">
+	<g>
+		<g class="scales">
+			<line class="scale-line" x1="292.38" y1="97.7" x2="205" y2="10.05"/>
+			<line class="scale-line" x1="292.38" y1="97.7" x2="205.15" y2="185"/>
+			<line class="scale-line" x1="292.38" y1="97.7" x2="379.35" y2="184.75"/>
+			<line class="scale-line" x1="292.38" y1="97.7" x2="380" y2="10"/>
+		</g>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 246.2435 69.1949)" class="value typo">3.4%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 332.9747 156.5489)" class="value typo">10.2%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 307.5284 101.6851)" class="value typo">0.4%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 253.0457 155.1694)" class="value typo">7%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 252.2773 53.1967)" class="label typo">#spring</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 343.9935 145.5356)" class="label typo">#autumn</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 296.5472 90.6719)" class="label typo">#summer</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 230.9957 155.2248)" class="label typo">#winter</text>
+	</g>
+	<circle class="hidden-circle" cx="292.29" cy="97.75" r="75"/>
+	<polygon class="radar-polygon" points="278.7,84.15 260.57,129.47 337.61,143.07 292.29,97.75 	"/>
+	<g>
+		<text transform="matrix(1 0 0 1 330.8149 99.294)" class="typo park-name"><tspan x="0" y="0">Mestské</tspan><tspan x="0" y="14">lesy</tspan></text>
+	</g>
+	<circle class="dot" cx="292.29" cy="97.75" r="1.39"/>
+</g>
+<g class="radar">
+	<g>
+		<g class="scales">
+			<line class="scale-line" x1="292.38" y1="292.7" x2="205" y2="205.05"/>
+			<line class="scale-line" x1="292.38" y1="292.7" x2="205.15" y2="380"/>
+			<line class="scale-line" x1="292.38" y1="292.7" x2="379.35" y2="379.75"/>
+			<line class="scale-line" x1="292.38" y1="292.7" x2="380" y2="205"/>
+		</g>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 249.8687 267.8192)" class="value typo">2.8%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 332.397 350.9698)" class="value typo">10.9%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 319.5292 283.6852)" class="value typo">3.1%</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 274.421 328.7933)" class="value typo">1.9%</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 255.8838 251.8342)" class="label typo">#spring</text>
+		<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 343.397 339.9696)" class="label typo">#autumn</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 308.5292 272.6852)" class="label typo">#summer</text>
+		<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 258.8393 322.375)" class="label typo">#winter</text>
+	</g>
+	<circle class="hidden-circle" cx="292.37" cy="292.71" r="75"/>
+	<polygon class="radar-polygon" points="283.31,283.65 287.84,297.25 337.69,338.03 305.97,279.12 	"/>
+	<g>
+		<text transform="matrix(1 0 0 1 330.1567 294.3557)" class="typo park-name"><tspan x="0" y="0">Sad Janka</tspan><tspan x="0" y="14">Kráľa</tspan></text>
+	</g>
+	<circle class="dot" cx="292.37" cy="292.71" r="1.39"/>
+</g>
+</svg>
