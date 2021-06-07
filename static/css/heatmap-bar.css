@@ -292,17 +292,12 @@
 }
 
 .heatmap .row>span::before {
-    content: "\2193";
     margin-right: 5px;
 }
 
 .heatmap .row.active>span {
     font-weight: bold;
     color:var(--gray);
-}
-
-.heatmap .row.active>span::before {
-    content:  "\2191";
 }
 
 @media(max-width: 767px){
@@ -465,3 +460,8 @@
     margin-top: 10px;
   }
 }*/
+
+/* common-users-heatmap-chart – change cursor to arrow */
+.common-users-heatmap-chart .row .rowbar, .common-users-heatmap-chart .row span  {
+     cursor: auto!important;
+}
