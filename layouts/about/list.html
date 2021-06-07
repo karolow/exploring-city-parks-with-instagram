@@ -1,0 +1,48 @@
+{{ define "body_classes" }}page-team-list{{ end }}
+
+{{ define "main" }}
+
+{{ $content_parts := split .Content "||| TEAM PICTURES |||" }}
+
+<div class="container pb-6 pt-6 pt-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <h1 class="title">{{.Title}}</h1>
+      <div class="content">
+         {{ index $content_parts 0 | safe.HTML }}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="content">
+     <p class="team-roles">Project team</p>
+  </div>
+  <div class="row">
+    {{ range where .Pages.ByWeight ".Params.supervisor" "!=" true}}
+    <div class="col-12 col-md-4 mb-3">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+  <div class="content">
+     <p class="team-roles">Supervisors</p>
+  </div>
+  <div class="row">
+    {{ range where .Pages.ByWeight ".Params.supervisor" true }}
+    <div class="col-12 col-md-4 mb-3">{{ .Render "summary" }}</div>
+    {{ end }}
+  </div>
+</div>
+
+<div class="container pb-6 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="content">
+         {{ index $content_parts 1 | safe.HTML }}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{{ end }}

@@ -20,11 +20,20 @@
       font-weight: normal;
     }
     p {
-      color: $black;
+      color: $primary;
       text-transform: uppercase;
       margin: 0;
       font-size: 12px;
       font-weight: 500;
+      line-height: 20px;
+    }
+    p.team-position {
+      color: $steel;
+      text-transform: none;
+      margin: 0;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 20px;
     }
   }
   .team-content {

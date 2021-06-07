@@ -16,10 +16,13 @@
     flex-wrap: wrap;
   }
   .call-box-top {
-    flex: 1 0 auto;
-    padding: 20px;
+    // flex: 1 0 auto;
+    padding-left: 20px;
     @include media-breakpoint-up(md) {
     }
+    display: flex;
+    align-items: center;
+    justify-content: center
   }
   .call-box-bottom {
     flex: auto;
@@ -31,11 +34,11 @@
     }
   }
   .call-name {
-    font-size: 1.1rem;
-    font-weight: bold;
+    font-size: 0.8rem;
   }
   .call-phone {
-    margin-bottom: 5px;
+    font-size: 0.8rem;
+    // margin-bottom: 5px;
   }
   strong {
     font-weight: bold;
@@ -52,4 +55,8 @@
       height: 120px;
     }
   }
+}
+
+.mib-details {
+  padding-left: 20px;
 }

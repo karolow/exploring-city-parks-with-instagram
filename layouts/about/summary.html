@@ -7,8 +7,10 @@
   <div class="team-meta">
     <h2 class="team-name">{{ .Title }}</h2>
     <p class="team-description">{{ .Params.Jobtitle }}</p>
-    {{ if .Params.Linkedinurl }}
-    <a target="_blank" href="{{ .Params.Linkedinurl }}">LinkedIn</a> {{ end }}
+    {{ if .Params.position }}
+    <p class="team-position">{{ .Params.position }}</p> {{ end }}
+    {{ if .Params.url }}
+    <a target="_blank" href="{{ .Params.url }}">some url</a> {{ end }}
   </div>
   <div class="team-content"></div>
 </div>
