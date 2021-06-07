@@ -8,4 +8,4 @@ scroll_down_hand_text: "Pick the park or scroll down to read more about the rese
 
 # Exploring the city parks with Instagram
 
-See how Instagram posts showcase the city highlights, uncover the aspirations of citizens, and illustrate the variety of their activities in public spaces.
+See how Instagram posts showcase the city highlights, uncover the aspirations of residents, and illustrate the variety of their activities in public spaces.
