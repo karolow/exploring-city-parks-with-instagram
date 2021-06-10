@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="sad-janka-categories-correlation" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 730 790" style="enable-background:new 0 0 730 790;" xml:space="preserve" onclick="">
+<style type="text/css">
+
+	:root {
+	  --main: #DC006E;
+	  --hover: #F5C549;
+	  --gray: #5C5A5A;
+	  --light-gray: #F2F2F2;
+	}
+
+
+	#sad-janka-corr-matrix .column-background-odd{fill:none;}
+	#sad-janka-corr-matrix .column-background-even{fill:var(--light-gray)}
+
+	#sad-janka-corr-matrix .row-background{
+		fill:var(--light-gray);
+		opacity:0;
+	}
+
+	#sad-janka-corr-matrix .row-line{
+		fill:none;
+		stroke:var(--main);
+	}
+
+	#sad-janka-corr-matrix #column-lines line {
+		fill: none;
+		stroke: var(--light-gray);
+	}
+
+	#sad-janka-corr-matrix .circle{
+		fill:#FFFFFF;
+		stroke:var(--main);
+	}
+
+	#sad-janka-corr-matrix .typo {
+		font-family:Helvetica,Arial,sans-serif,-apple-system;
+		font-size:14px;
+		fill:var(--gray);
+	}
+
+	#sad-janka-corr-matrix .label-row {
+		fill:var(--main);
+	}
+
+	#sad-janka-corr-matrix .value {
+		font-weight:bold;
+		opacity:0;
+		visibility:hidden;
+	}
+
+	#sad-janka-corr-matrix .label-row-col {
+		opacity:0;
+		visibility:hidden;
+	}
+
+	#sad-janka-corr-matrix .row:hover .label-row-col,
+	#sad-janka-corr-matrix .row:active .label-row-col {
+		visibility: visible;
+		opacity:1;
+	}
+
+	#sad-janka-corr-matrix .row:hover .value,
+	#sad-janka-corr-matrix .row:active .value {
+		visibility: visible;
+		opacity:1;
+	}
+
+	#sad-janka-corr-matrix .row:hover .circle,
+	#sad-janka-corr-matrix .row:active .circle {
+		fill:var(--hover);
+		stroke:var(--hover);
+	}
+
+	#sad-janka-corr-matrix .row:hover .row-line,
+	#sad-janka-corr-matrix .row:active .row-line {
+		stroke:var(--hover);
+	}
+
+	#sad-janka-corr-matrix .row:hover .label-row,
+	#sad-janka-corr-matrix .row:active .label-row {
+		font-weight:bold;
+	}
+
+	#sad-janka-corr-matrix .row,
+	#sad-janka-corr-matrix .circle,
+	#sad-janka-corr-matrix .row-line,
+	#sad-janka-corr-matrix .value,
+	#sad-janka-corr-matrix .label-row,
+	#sad-janka-corr-matrix .label-row-col {
+		transition: all 0.4s ease-in-out;
+	}
+
+	#sad-janka-corr-matrix:hover .row {
+		opacity:0.4;
+	}
+
+	#sad-janka-corr-matrix:hover .row:hover,
+	#sad-janka-corr-matrix:hover .row:active {
+		opacity:1;
+	}
+
+</style>
+
+<g id="sad-janka-corr-matrix">
+	<g id="column-lines" transform="matrix(1 0 0 1 -5 0)">
+
+	<line x1="657" y1="740" x2="657" y2="12"/>
+	<line x1="585" y1="740" x2="585" y2="12"/>
+	<line x1="512" y1="740" x2="512" y2="12"/>
+	<line x1="440" y1="740" x2="440" y2="12"/>
+	<line x1="367" y1="740" x2="367" y2="12"/>
+	<line x1="295" y1="740" x2="295" y2="12"/>
+	<line x1="222" y1="740" x2="222" y2="12"/>
+	<line x1="150" y1="740" x2="150" y2="12"/>
+
+	</g>
+	<g id="header-labels">
+		<g>
+			<text transform="matrix(1 0 0 1 77.9115 37.1592)" class="typo label-col">nature</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 150.6122 23.1592)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 222.809 23.1592)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 295.2577 23.16)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 367.7069 37.16)" class="typo label-col">activity</text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 440.4081 23.16)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 512.6049 23.16)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 585.3056 23.16)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g>
+			<text transform="matrix(1 0 0 1 657.5024 37.1592)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row1">
+		<rect x="4.83" y="49.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 4.9115 105.0609)" class="typo label-row">nature</text>
+		</g>
+		<line class="row-line" x1="5.83" y1="90.72" x2="687.83" y2="90.72"/>
+		<path class="circle" d="M687.44,79.2L687.44,79.2c6.55,0,11.86,5.31,11.86,11.86v0c0,6.55-5.31,11.86-11.86,11.86h0
+			c-6.55,0-11.86-5.31-11.86-11.86v0C675.59,84.51,680.89,79.2,687.44,79.2z"/>
+		<path class="circle" d="M542.82,67.37L542.82,67.37c13.08,0,23.69,10.61,23.69,23.69l0,0c0,13.08-10.61,23.69-23.69,23.69h0
+			c-13.08,0-23.69-10.61-23.69-23.69l0,0C519.13,77.98,529.74,67.37,542.82,67.37z"/>
+		<path class="circle" d="M615.13,76.17L615.13,76.17c8.23,0,14.89,6.67,14.89,14.89l0,0c0,8.23-6.67,14.89-14.89,14.89l0,0
+			c-8.23,0-14.89-6.67-14.89-14.89l0,0C600.24,82.83,606.91,76.17,615.13,76.17z"/>
+		<path class="circle" d="M470.51,68.93L470.51,68.93c12.22,0,22.13,9.91,22.13,22.13l0,0c0,12.22-9.91,22.13-22.13,22.13h0
+			c-12.22,0-22.13-9.91-22.13-22.13l0,0C448.38,78.84,458.29,68.93,470.51,68.93z"/>
+		<path class="circle" d="M181.27,56.97L181.27,56.97c18.82,0,34.08,15.26,34.08,34.08v0c0,18.82-15.26,34.08-34.08,34.08l0,0
+			c-18.82,0-34.08-15.26-34.08-34.08v0C147.18,72.23,162.44,56.97,181.27,56.97z"/>
+		<polygon class="circle" points="108.96,91.06 108.96,91.06 108.96,91.06 	"/>
+		<path class="circle" d="M398.2,60.28L398.2,60.28c17,0,30.78,13.78,30.78,30.78v0c0,17-13.78,30.78-30.78,30.78h0
+			c-17,0-30.78-13.78-30.78-30.78v0C367.42,74.06,381.2,60.28,398.2,60.28z"/>
+		<path class="circle" d="M325.89,59.99L325.89,59.99c17.16,0,31.07,13.91,31.07,31.07v0c0,17.16-13.91,31.07-31.07,31.07l0,0
+			c-17.16,0-31.07-13.91-31.07-31.07v0C294.82,73.9,308.73,59.99,325.89,59.99z"/>
+		<path class="circle" d="M253.58,56.67L253.58,56.67c18.99,0,34.39,15.4,34.39,34.39v0c0,18.99-15.4,34.39-34.39,34.39h0
+			c-18.99,0-34.39-15.4-34.39-34.39v0C219.19,72.07,234.59,56.67,253.58,56.67z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.0995 87.5587)" class="typo">128</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 513.7543 87.5587)" class="typo">511</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 585.789 87.5587)" class="typo">202</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 441.1679 87.5587)" class="typo">446</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 149.1454 87.5587)" class="typo">1058</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 87.5587)" class="typo">863</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.5468 87.5587)" class="typo">879</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 221.456 87.5587)" class="typo">1077</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 104.0599)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 104.0599)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 103.9805)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 103.9805)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 103.9805)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 104.0606)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 104.0606)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 104.0599)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row2">
+		<rect x="4.83" y="131.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 5.0644 187.3093)"><tspan x="0" y="0" class="typo label-row">happy</tspan><tspan x="0" y="14" class="typo label-row">/</tspan><tspan x="5.19" y="14" class="typo label-row"> </tspan><tspan x="7.99" y="14" class="typo label-row">love</tspan></text>
+		</g>
+		<line class="row-line" x1="5.83" y1="172.91" x2="687.83" y2="172.91"/>
+		<path class="circle" d="M687.44,162.5L687.44,162.5c5.93,0,10.74,4.81,10.74,10.74v0c0,5.93-4.81,10.74-10.74,10.74l0,0
+			c-5.93,0-10.74-4.81-10.74-10.74v0C676.7,167.31,681.51,162.5,687.44,162.5z"/>
+		<path class="circle" d="M542.82,158.99L542.82,158.99c7.87,0,14.25,6.38,14.25,14.25v0c0,7.87-6.38,14.25-14.25,14.25h0
+			c-7.87,0-14.25-6.38-14.25-14.25v0C528.57,165.37,534.95,158.99,542.82,158.99z"/>
+		<path class="circle" d="M615.13,158.31L615.13,158.31c8.25,0,14.93,6.68,14.93,14.93l0,0c0,8.25-6.68,14.93-14.93,14.93h0
+			c-8.25,0-14.93-6.68-14.93-14.93l0,0C600.2,165,606.89,158.31,615.13,158.31z"/>
+		<path class="circle" d="M470.51,149.05L470.51,149.05c13.36,0,24.19,10.83,24.19,24.19v0c0,13.36-10.83,24.19-24.19,24.19h0
+			c-13.36,0-24.19-10.83-24.19-24.19v0C446.32,159.88,457.15,149.05,470.51,149.05z"/>
+		<polygon class="circle" points="181.27,173.24 181.27,173.24 181.27,173.24 	"/>
+		<path class="circle" d="M108.96,139.16L108.96,139.16c18.82,0,34.08,15.26,34.08,34.08l0,0c0,18.82-15.26,34.08-34.08,34.08l0,0
+			c-18.82,0-34.08-15.26-34.08-34.08l0,0C74.87,154.42,90.13,139.16,108.96,139.16z"/>
+		<path class="circle" d="M398.2,147.68L398.2,147.68c14.12,0,25.56,11.44,25.56,25.56l0,0c0,14.12-11.44,25.56-25.56,25.56h0
+			c-14.12,0-25.56-11.44-25.56-25.56l0,0C372.64,159.13,384.08,147.68,398.2,147.68z"/>
+		<path class="circle" d="M325.89,149.44L325.89,149.44c13.15,0,23.8,10.66,23.8,23.8l0,0c0,13.15-10.66,23.8-23.8,23.8h0
+			c-13.15,0-23.8-10.66-23.8-23.8l0,0C302.09,160.1,312.74,149.44,325.89,149.44z"/>
+		<path class="circle" d="M253.58,145.52L253.58,145.52c15.31,0,27.72,12.41,27.72,27.72l0,0c0,15.31-12.41,27.72-27.72,27.72h0
+			c-15.31,0-27.72-12.41-27.72-27.72l0,0C225.85,157.93,238.27,145.52,253.58,145.52z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.0995 169.7425)" class="typo">105</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 513.4785 169.7425)" class="typo">185</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 585.789 169.7425)" class="typo">203</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 441.1679 169.7425)" class="typo">533</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 76.8349 169.7425)" class="typo">1058</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 169.7425)" class="typo">595</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.5468 169.7425)" class="typo">516</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 224.2367 169.7425)" class="typo">700</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 186.1833)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 186.1833)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 186.1039)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 186.1039)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 186.1039)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 186.184)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 186.184)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 186.1833)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row3">
+		<rect x="4.83" y="213.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 4.9106 270.1671)"><tspan x="0" y="0" class="typo label-row">self- </tspan><tspan x="0" y="14" class="typo label-row">promo</tspan></text>
+		</g>
+		<line class="row-line" x1="5.83" y1="255.7" x2="687.83" y2="255.7"/>
+		<path class="circle" d="M687.44,248.06L687.44,248.06c4.41,0,7.98,3.57,7.98,7.98l0,0c0,4.41-3.57,7.98-7.98,7.98l0,0
+			c-4.41,0-7.98-3.57-7.98-7.98l0,0C679.46,251.63,683.03,248.06,687.44,248.06z"/>
+		<path class="circle" d="M542.82,240.08L542.82,240.08c8.81,0,15.96,7.15,15.96,15.96l0,0c0,8.81-7.15,15.96-15.96,15.96l0,0
+			c-8.81,0-15.96-7.15-15.96-15.96l0,0C526.86,247.22,534.01,240.08,542.82,240.08z"/>
+		<path class="circle" d="M615.13,243.73L615.13,243.73c6.8,0,12.31,5.51,12.31,12.31l0,0c0,6.8-5.51,12.31-12.31,12.31l0,0
+			c-6.8,0-12.31-5.51-12.31-12.31l0,0C602.82,249.24,608.33,243.73,615.13,243.73z"/>
+		<path class="circle" d="M470.51,239.14L470.51,239.14c9.33,0,16.9,7.56,16.9,16.9v0c0,9.33-7.56,16.9-16.9,16.9l0,0
+			c-9.33,0-16.9-7.56-16.9-16.9v0C453.61,246.7,461.18,239.14,470.51,239.14z"/>
+		<path class="circle" d="M181.27,228.31L181.27,228.31c15.31,0,27.72,12.41,27.72,27.72v0c0,15.31-12.41,27.72-27.72,27.72l0,0
+			c-15.31,0-27.72-12.41-27.72-27.72v0C153.54,240.72,165.96,228.31,181.27,228.31z"/>
+		<path class="circle" d="M108.96,221.65L108.96,221.65c18.99,0,34.39,15.4,34.39,34.39v0c0,18.99-15.4,34.39-34.39,34.39l0,0
+			c-18.99,0-34.39-15.4-34.39-34.39v0C74.57,237.04,89.97,221.65,108.96,221.65z"/>
+		<path class="circle" d="M398.2,233.17L398.2,233.17c12.63,0,22.86,10.24,22.86,22.86l0,0c0,12.63-10.24,22.86-22.86,22.86h0
+			c-12.63,0-22.86-10.24-22.86-22.86l0,0C375.34,243.41,385.57,233.17,398.2,233.17z"/>
+		<path class="circle" d="M325.89,226.62L325.89,226.62c16.25,0,29.42,13.17,29.42,29.42v0c0,16.25-13.17,29.42-29.42,29.42h0
+			c-16.25,0-29.42-13.17-29.42-29.42v0C296.47,239.79,309.64,226.62,325.89,226.62z"/>
+		<polygon class="circle" points="253.58,256.04 253.58,256.04 253.58,256.04 	"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.8803 252.5358)" class="typo">58</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 513.4785 252.5358)" class="typo">232</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 585.789 252.5358)" class="typo">138</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 441.1679 252.5358)" class="typo">260</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 252.5358)" class="typo">700</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 76.8349 252.5358)" class="typo">1077</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 252.5358)" class="typo">476</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.5468 252.5358)" class="typo">788</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 268.9161)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 268.9161)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 268.8367)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 268.8367)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 268.8367)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 268.9168)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 268.9168)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 268.9161)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row4">
+		<rect x="4.83" y="295.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 4.911 349.3995)"><tspan x="0" y="0" class="typo label-row">photo- </tspan><tspan x="0" y="14" class="typo label-row">graphy</tspan></text>
+		</g>
+		<line class="row-line" x1="5.83" y1="334.87" x2="687.83" y2="334.87"/>
+		<path class="circle" d="M687.44,327.87L687.44,327.87c4.05,0,7.34,3.28,7.34,7.34l0,0c0,4.05-3.28,7.34-7.34,7.34l0,0
+			c-4.05,0-7.34-3.28-7.34-7.34l0,0C680.11,331.15,683.39,327.87,687.44,327.87z"/>
+		<path class="circle" d="M542.82,320.16L542.82,320.16c8.31,0,15.04,6.73,15.04,15.04v0c0,8.31-6.73,15.04-15.04,15.04h0
+			c-8.31,0-15.04-6.73-15.04-15.04v0C527.78,326.9,534.51,320.16,542.82,320.16z"/>
+		<path class="circle" d="M615.13,325.32L615.13,325.32c5.46,0,9.89,4.43,9.89,9.89v0c0,5.46-4.43,9.89-9.89,9.89h0
+			c-5.46,0-9.89-4.43-9.89-9.89v0C605.25,329.74,609.67,325.32,615.13,325.32z"/>
+		<path class="circle" d="M470.51,318.27L470.51,318.27c9.35,0,16.93,7.58,16.93,16.93l0,0c0,9.35-7.58,16.93-16.93,16.93l0,0
+			c-9.35,0-16.93-7.58-16.93-16.93l0,0C453.58,325.85,461.16,318.27,470.51,318.27z"/>
+		<path class="circle" d="M181.27,311.4L181.27,311.4c13.15,0,23.8,10.66,23.8,23.8l0,0c0,13.15-10.66,23.8-23.8,23.8l0,0
+			c-13.15,0-23.8-10.66-23.8-23.8l0,0C157.47,322.06,168.12,311.4,181.27,311.4z"/>
+		<path class="circle" d="M108.96,304.14L108.96,304.14c17.16,0,31.07,13.91,31.07,31.07v0c0,17.16-13.91,31.07-31.07,31.07l0,0
+			c-17.16,0-31.07-13.91-31.07-31.07v0C77.89,318.04,91.8,304.14,108.96,304.14z"/>
+		<path class="circle" d="M398.2,316.28L398.2,316.28c10.45,0,18.92,8.47,18.92,18.92l0,0c0,10.45-8.47,18.92-18.92,18.92h0
+			c-10.45,0-18.92-8.47-18.92-18.92l0,0C379.28,324.75,387.75,316.28,398.2,316.28z"/>
+		<polygon class="circle" points="325.89,335.2 325.89,335.2 325.89,335.2 	"/>
+		<path class="circle" d="M253.58,305.79L253.58,305.79c16.25,0,29.42,13.17,29.42,29.42l0,0c0,16.25-13.17,29.42-29.42,29.42h0
+			c-16.25,0-29.42-13.17-29.42-29.42l0,0C224.16,318.96,237.33,305.79,253.58,305.79z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.8803 332.7029)" class="typo">49</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 513.4785 332.7029)" class="typo">206</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 586.5698 332.7029)" class="typo">89</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 441.1679 332.7029)" class="typo">261</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 332.7029)" class="typo">516</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 79.6156 332.7029)" class="typo">879</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 332.7029)" class="typo">326</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 224.2367 332.7029)" class="typo">788</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 348.0228)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 348.0228)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 348.0228)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 347.9434)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 347.9434)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 348.0235)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 348.0235)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 348.0228)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row5">
+		<rect x="4.83" y="377.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 4.911 431.6685)" class="typo label-row">activity</text>
+		</g>
+		<line class="row-line" x1="5.83" y1="417.07" x2="687.83" y2="417.07"/>
+		<path class="circle" d="M687.44,408.45L687.44,408.45c4.94,0,8.95,4.01,8.95,8.95l0,0c0,4.94-4.01,8.95-8.95,8.95l0,0
+			c-4.94,0-8.95-4.01-8.95-8.95l0,0C678.49,412.46,682.5,408.45,687.44,408.45z"/>
+		<path class="circle" d="M542.82,400.48L542.82,400.48c9.35,0,16.93,7.58,16.93,16.93l0,0c0,9.35-7.58,16.93-16.93,16.93l0,0
+			c-9.35,0-16.93-7.58-16.93-16.93l0,0C525.89,408.06,533.47,400.48,542.82,400.48z"/>
+		<path class="circle" d="M615.13,400.58L615.13,400.58c9.3,0,16.83,7.54,16.83,16.83l0,0c0,9.3-7.54,16.83-16.83,16.83h0
+			c-9.3,0-16.83-7.54-16.83-16.83l0,0C598.3,408.11,605.84,400.58,615.13,400.58z"/>
+		<path class="circle" d="M470.51,400.91L470.51,400.91c9.11,0,16.5,7.39,16.5,16.5l0,0c0,9.11-7.39,16.5-16.5,16.5l0,0
+			c-9.11,0-16.5-7.39-16.5-16.5l0,0C454.01,408.29,461.4,400.91,470.51,400.91z"/>
+		<path class="circle" d="M181.27,391.85L181.27,391.85c14.12,0,25.56,11.44,25.56,25.56v0c0,14.12-11.44,25.56-25.56,25.56l0,0
+			c-14.12,0-25.56-11.44-25.56-25.56v0C155.71,403.29,167.15,391.85,181.27,391.85z"/>
+		<path class="circle" d="M108.96,386.62L108.96,386.62c17,0,30.78,13.78,30.78,30.78v0c0,17-13.78,30.78-30.78,30.78l0,0
+			c-17,0-30.78-13.78-30.78-30.78v0C78.17,400.41,91.96,386.62,108.96,386.62z"/>
+		<polygon class="circle" points="398.2,417.41 398.2,417.41 398.2,417.41 	"/>
+		<path class="circle" d="M325.89,398.49L325.89,398.49c10.45,0,18.92,8.47,18.92,18.92v0c0,10.45-8.47,18.92-18.92,18.92h0
+			c-10.45,0-18.92-8.47-18.92-18.92v0C306.97,406.96,315.44,398.49,325.89,398.49z"/>
+		<path class="circle" d="M253.58,394.55L253.58,394.55c12.63,0,22.86,10.24,22.86,22.86v0c0,12.63-10.24,22.86-22.86,22.86l0,0
+			c-12.63,0-22.86-10.24-22.86-22.86v0C230.72,404.78,240.95,394.55,253.58,394.55z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.8803 414.9075)" class="typo">73</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 513.4785 414.9075)" class="typo">261</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 585.789 414.9075)" class="typo">258</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 441.1679 414.9075)" class="typo">248</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 414.9075)" class="typo">595</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 79.6156 414.9075)" class="typo">863</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.5468 414.9075)" class="typo">326</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 224.2367 414.9075)" class="typo">476</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 430.1668)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 430.1668)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 430.1668)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 430.0875)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 430.0875)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 430.1675)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 430.1675)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 430.1668)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row6">
+		<rect x="4.83" y="459.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 5.0644 514.1111)"><tspan x="0" y="0" class="typo label-row">friend</tspan><tspan x="0" y="14" class="typo label-row">/</tspan><tspan x="5.19" y="14" class="typo label-row"> </tspan><tspan x="7.99" y="14" class="typo label-row">family</tspan></text>
+		</g>
+		<line class="row-line" x1="5.83" y1="499.45" x2="687.83" y2="499.45"/>
+		<path class="circle" d="M687.44,492.3L687.44,492.3c4.13,0,7.48,3.35,7.48,7.48l0,0c0,4.13-3.35,7.48-7.48,7.48l0,0
+			c-4.13,0-7.48-3.35-7.48-7.48l0,0C679.96,495.65,683.31,492.3,687.44,492.3z"/>
+		<path class="circle" d="M542.82,491.47L542.82,491.47c4.59,0,8.32,3.72,8.32,8.32l0,0c0,4.59-3.72,8.32-8.32,8.32l0,0
+			c-4.59,0-8.32-3.72-8.32-8.32l0,0C534.5,495.19,538.23,491.47,542.82,491.47z"/>
+		<path class="circle" d="M615.13,490.24L615.13,490.24c5.27,0,9.55,4.27,9.55,9.55v0c0,5.27-4.27,9.55-9.55,9.55h0
+			c-5.27,0-9.55-4.27-9.55-9.55v0C605.58,494.51,609.86,490.24,615.13,490.24z"/>
+		<polygon class="circle" points="470.51,499.79 470.51,499.79 470.51,499.79 	"/>
+		<path class="circle" d="M181.27,475.59L181.27,475.59c13.36,0,24.19,10.83,24.19,24.19v0c0,13.36-10.83,24.19-24.19,24.19l0,0
+			c-13.36,0-24.19-10.83-24.19-24.19v0C157.08,486.42,167.91,475.59,181.27,475.59z"/>
+		<path class="circle" d="M108.96,477.66L108.96,477.66c12.22,0,22.13,9.91,22.13,22.13v0c0,12.22-9.91,22.13-22.13,22.13l0,0
+			c-12.22,0-22.13-9.91-22.13-22.13v0C86.83,487.56,96.74,477.66,108.96,477.66z"/>
+		<path class="circle" d="M398.2,483.28L398.2,483.28c9.11,0,16.5,7.39,16.5,16.5l0,0c0,9.11-7.39,16.5-16.5,16.5l0,0
+			c-9.11,0-16.5-7.39-16.5-16.5l0,0C381.7,490.67,389.09,483.28,398.2,483.28z"/>
+		<path class="circle" d="M325.89,482.86L325.89,482.86c9.35,0,16.93,7.58,16.93,16.93l0,0c0,9.35-7.58,16.93-16.93,16.93l0,0
+			c-9.35,0-16.93-7.58-16.93-16.93l0,0C308.96,490.44,316.54,482.86,325.89,482.86z"/>
+		<path class="circle" d="M253.58,482.89L253.58,482.89c9.33,0,16.9,7.56,16.9,16.9l0,0c0,9.33-7.56,16.9-16.9,16.9h0
+			c-9.33,0-16.9-7.56-16.9-16.9l0,0C236.68,490.45,244.25,482.89,253.58,482.89z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.8803 497.2857)" class="typo">51</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 513.2592 497.2857)" class="typo">63</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 585.5698 497.2857)" class="typo">83</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 497.2857)" class="typo">533</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 79.6156 497.2857)" class="typo">446</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 497.2857)" class="typo">248</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.5468 497.2857)" class="typo">261</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 224.2367 497.2857)" class="typo">260</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 512.4844)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 512.4844)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 512.4844)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 512.4051)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 512.4051)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 512.4852)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 512.4852)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 512.4844)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row7">
+		<rect x="4.83" y="541.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 4.9115 596.5999)"><tspan x="0" y="0" class="typo label-row">built </tspan><tspan x="0" y="14" class="typo label-row">elements</tspan></text>
+		</g>
+		<line class="row-line" x1="5.83" y1="581.87" x2="687.83" y2="581.87"/>
+		<path class="circle" d="M687.44,577.76L687.44,577.76c2.46,0,4.45,1.99,4.45,4.45l0,0c0,2.46-1.99,4.45-4.45,4.45h0
+			c-2.46,0-4.45-1.99-4.45-4.45l0,0C683,579.75,684.99,577.76,687.44,577.76z"/>
+		<polygon class="circle" points="542.82,582.21 542.82,582.21 542.82,582.21 	"/>
+		<path class="circle" d="M615.13,571.84L615.13,571.84c5.73,0,10.37,4.64,10.37,10.37l0,0c0,5.73-4.64,10.37-10.37,10.37h0
+			c-5.73,0-10.37-4.64-10.37-10.37l0,0C604.76,576.48,609.4,571.84,615.13,571.84z"/>
+		<path class="circle" d="M470.51,573.89L470.51,573.89c4.59,0,8.32,3.72,8.32,8.32l0,0c0,4.59-3.72,8.32-8.32,8.32l0,0
+			c-4.59,0-8.32-3.72-8.32-8.32l0,0C462.19,577.62,465.92,573.89,470.51,573.89z"/>
+		<path class="circle" d="M181.27,567.96L181.27,567.96c7.87,0,14.25,6.38,14.25,14.25l0,0c0,7.87-6.38,14.25-14.25,14.25l0,0
+			c-7.87,0-14.25-6.38-14.25-14.25l0,0C167.02,574.34,173.4,567.96,181.27,567.96z"/>
+		<path class="circle" d="M108.96,558.52L108.96,558.52c13.08,0,23.69,10.61,23.69,23.69l0,0c0,13.08-10.61,23.69-23.69,23.69l0,0
+			c-13.08,0-23.69-10.61-23.69-23.69l0,0C85.27,569.13,95.88,558.52,108.96,558.52z"/>
+		<path class="circle" d="M398.2,565.28L398.2,565.28c9.35,0,16.93,7.58,16.93,16.93l0,0c0,9.35-7.58,16.93-16.93,16.93l0,0
+			c-9.35,0-16.93-7.58-16.93-16.93l0,0C381.27,572.86,388.85,565.28,398.2,565.28z"/>
+		<path class="circle" d="M325.89,567.17L325.89,567.17c8.31,0,15.04,6.73,15.04,15.04l0,0c0,8.31-6.73,15.04-15.04,15.04h0
+			c-8.31,0-15.04-6.73-15.04-15.04l0,0C310.85,573.9,317.58,567.17,325.89,567.17z"/>
+		<path class="circle" d="M253.58,566.25L253.58,566.25c8.81,0,15.96,7.15,15.96,15.96l0,0c0,8.81-7.15,15.96-15.96,15.96l0,0
+			c-8.81,0-15.96-7.15-15.96-15.96l0,0C237.62,573.4,244.76,566.25,253.58,566.25z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.8803 579.71)" class="typo">18</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 586.5698 579.71)" class="typo">98</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 440.9486 579.71)" class="typo">63</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 579.71)" class="typo">185</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 79.8915 579.71)" class="typo">511</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 579.71)" class="typo">261</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.5468 579.71)" class="typo">206</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 224.2367 579.71)" class="typo">232</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 594.8482)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 594.8482)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 594.8482)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 594.7689)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 594.7689)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 594.7689)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 594.8489)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 594.8482)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row8">
+		<rect x="4.83" y="623.22" class="row-background" width="720" height="82"/>
+		<polygon class="circle" points="687.44,652.39 687.44,652.39 687.44,652.39 	"/>
+		<g>
+			<text transform="matrix(1 0 0 1 5.0653 679.0882)"><tspan x="0" y="0" class="typo label-row">food </tspan><tspan x="0" y="14" class="typo label-row">/</tspan><tspan x="5.19" y="14" class="typo label-row"> </tspan><tspan x="7.99" y="14" class="typo label-row">events</tspan></text>
+		</g>
+		<line class="row-line" x1="5.83" y1="664.3" x2="687.83" y2="664.3"/>
+		<path class="circle" d="M687.44,660.19L687.44,660.19c2.46,0,4.45,1.99,4.45,4.45v0c0,2.46-1.99,4.45-4.45,4.45h0
+			c-2.46,0-4.45-1.99-4.45-4.45v0C683,662.18,684.99,660.19,687.44,660.19z"/>
+		<path class="circle" d="M542.82,654.26L542.82,654.26c5.73,0,10.37,4.64,10.37,10.37v0c0,5.73-4.64,10.37-10.37,10.37h0
+			c-5.73,0-10.37-4.64-10.37-10.37v0C532.45,658.9,537.09,654.26,542.82,654.26z"/>
+		<polygon class="circle" points="615.13,664.63 615.13,664.63 615.13,664.63 	"/>
+		<path class="circle" d="M470.51,655.09L470.51,655.09c5.27,0,9.55,4.27,9.55,9.55v0c0,5.27-4.27,9.55-9.55,9.55h0
+			c-5.27,0-9.55-4.27-9.55-9.55v0C460.96,659.36,465.24,655.09,470.51,655.09z"/>
+		<path class="circle" d="M181.27,649.7L181.27,649.7c8.25,0,14.93,6.68,14.93,14.93v0c0,8.25-6.68,14.93-14.93,14.93l0,0
+			c-8.25,0-14.93-6.68-14.93-14.93v0C166.34,656.39,173.02,649.7,181.27,649.7z"/>
+		<path class="circle" d="M108.96,649.74L108.96,649.74c8.23,0,14.89,6.67,14.89,14.89l0,0c0,8.23-6.67,14.89-14.89,14.89l0,0
+			c-8.23,0-14.89-6.67-14.89-14.89l0,0C94.06,656.41,100.73,649.74,108.96,649.74z"/>
+		<path class="circle" d="M398.2,647.8L398.2,647.8c9.3,0,16.83,7.54,16.83,16.83v0c0,9.3-7.54,16.83-16.83,16.83l0,0
+			c-9.3,0-16.83-7.54-16.83-16.83v0C381.37,655.34,388.9,647.8,398.2,647.8z"/>
+		<path class="circle" d="M325.89,654.75L325.89,654.75c5.46,0,9.89,4.43,9.89,9.89v0c0,5.46-4.43,9.89-9.89,9.89l0,0
+			c-5.46,0-9.89-4.43-9.89-9.89v0C316,659.17,320.43,654.75,325.89,654.75z"/>
+		<path class="circle" d="M253.58,652.32L253.58,652.32c6.8,0,12.31,5.51,12.31,12.31l0,0c0,6.8-5.51,12.31-12.31,12.31l0,0
+			c-6.8,0-12.31-5.51-12.31-12.31l0,0C241.27,657.84,246.78,652.32,253.58,652.32z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 658.8803 661.1339)" class="typo">18</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 512.2592 661.1339)" class="typo">98</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 439.9486 661.1339)" class="typo">83</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 661.1339)" class="typo">203</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 79.6156 661.1339)" class="typo">202</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 368.8573 661.1339)" class="typo">258</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 295.3275 661.1339)" class="typo">89</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 224.2367 661.1339)" class="typo">138</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 677.2115)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 677.2115)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 677.2115)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 677.1321)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 677.1321)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 677.1321)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 677.2122)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 658.5024 677.2115)" class="typo label-col">animals</text>
+		</g>
+	</g>
+	<g class="row" id="row9">
+		<rect x="4.83" y="705.22" class="row-background" width="720" height="82"/>
+		<g>
+			<text transform="matrix(1 0 0 1 4.9106 761.5767)" class="typo label-row">animals</text>
+		</g>
+		<line class="row-line" x1="5.83" y1="746.72" x2="615.83" y2="746.72"/>
+		<path class="circle" d="M542.82,742.61L542.82,742.61c2.46,0,4.45,1.99,4.45,4.45v0c0,2.46-1.99,4.45-4.45,4.45l0,0
+			c-2.46,0-4.45-1.99-4.45-4.45v0C538.38,744.6,540.37,742.61,542.82,742.61z"/>
+		<path class="circle" d="M615.13,742.61L615.13,742.61c2.46,0,4.45,1.99,4.45,4.45v0c0,2.46-1.99,4.45-4.45,4.45h0
+			c-2.46,0-4.45-1.99-4.45-4.45v0C610.69,744.6,612.68,742.61,615.13,742.61z"/>
+		<path class="circle" d="M470.51,739.58L470.51,739.58c4.13,0,7.48,3.35,7.48,7.48l0,0c0,4.13-3.35,7.48-7.48,7.48l0,0
+			c-4.13,0-7.48-3.35-7.48-7.48l0,0C463.03,742.93,466.38,739.58,470.51,739.58z"/>
+		<path class="circle" d="M181.27,736.32L181.27,736.32c5.93,0,10.74,4.81,10.74,10.74l0,0c0,5.93-4.81,10.74-10.74,10.74l0,0
+			c-5.93,0-10.74-4.81-10.74-10.74l0,0C170.53,741.13,175.34,736.32,181.27,736.32z"/>
+		<path class="circle" d="M108.96,735.2L108.96,735.2c6.55,0,11.86,5.31,11.86,11.86v0c0,6.55-5.31,11.86-11.86,11.86l0,0
+			c-6.55,0-11.86-5.31-11.86-11.86v0C97.1,740.51,102.41,735.2,108.96,735.2z"/>
+		<path class="circle" d="M398.2,738.11L398.2,738.11c4.94,0,8.95,4.01,8.95,8.95l0,0c0,4.94-4.01,8.95-8.95,8.95l0,0
+			c-4.94,0-8.95-4.01-8.95-8.95l0,0C389.25,742.11,393.26,738.11,398.2,738.11z"/>
+		<path class="circle" d="M325.89,739.72L325.89,739.72c4.05,0,7.34,3.28,7.34,7.34l0,0c0,4.05-3.28,7.34-7.34,7.34h0
+			c-4.05,0-7.34-3.28-7.34-7.34l0,0C318.55,743.01,321.84,739.72,325.89,739.72z"/>
+		<path class="circle" d="M253.58,739.08L253.58,739.08c4.41,0,7.98,3.57,7.98,7.98l0,0c0,4.41-3.57,7.98-7.98,7.98l0,0
+			c-4.41,0-7.98-3.57-7.98-7.98l0,0C245.6,742.65,249.17,739.08,253.58,739.08z"/>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 512.2592 743.5584)" class="typo">18</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 586.5698 743.5584)" class="typo">18</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 440.9486 743.5584)" class="typo">51</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 151.9262 743.5584)" class="typo">105</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 79.6156 743.5584)" class="typo">128</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 369.6381 743.5584)" class="typo">73</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 296.3275 743.5584)" class="typo">49</text>
+		</g>
+		<g class="value">
+			<text transform="matrix(1 0 0 1 223.0175 743.5584)" class="typo">58</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 77.9115 759.5757)" class="typo label-col">nature</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 150.8622 759.5757)"><tspan x="0" y="0" class="typo label-col">happy</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">love</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 223.309 759.5757)"><tspan x="0" y="0" class="typo label-col">self- </tspan><tspan x="0" y="14" class="typo label-col">promo</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 296.0077 759.4964)"><tspan x="0" y="0" class="typo label-col">photo- </tspan><tspan x="0" y="14" class="typo label-col">graphy</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 368.7069 759.4964)" class="typo label-col">activity</text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 441.6581 759.4964)"><tspan x="0" y="0" class="typo label-col">friend</tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">family</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 513.1049 759.5765)"><tspan x="0" y="0" class="typo label-col">built </tspan><tspan x="0" y="14" class="typo label-col">elements</tspan></text>
+		</g>
+		<g class="label-row-col">
+			<text transform="matrix(1 0 0 1 586.0556 759.5765)"><tspan x="0" y="0" class="typo label-col">food </tspan><tspan x="0" y="14" class="typo label-col">/</tspan><tspan x="4.66" y="14" class="typo label-col"> </tspan><tspan x="7.46" y="14" class="typo label-col">events</tspan></text>
+		</g>
+	</g>
+</g>
+</svg>
