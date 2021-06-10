@@ -20,11 +20,9 @@
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ .Content }}
         <div>
-          <a class="button button-primary" href="{{ "parks/" | relURL }}">Explore</a>
+            <p id="scroll-down-hand"><img id="scroll-down-hand-img" src="images/arrow_down_hand.svg" alt="Scroll down hand"></p>
+            <p id="scroll-down-text">{{ .Params.scroll_down_hand_text }}</p>
         </div>
-        {{ if .Site.Params.homepage.show_call_box }}
-        {{ partial "call.html" (dict "site" .Site "context" . "show_button" "true") }}
-        {{ end }}
       </div>
       {{ if .Params.intro_image }}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
@@ -35,13 +33,13 @@
   </div>
 </div>
 
-{{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
-{{if gt (len $services) 0}}
-<div class="strip">
-  <div class="container pt-6 pb-6 pb-md-10">
+{{ $parks := where (where .Site.RegularPages "Type" "parks") ".Params.featured" true }}
+{{if gt (len $parks) 0}}
+<div id="parks" class="strip">
+  <div class="container pt-6 pb-6">
     <div class="row justify-content-start">
-      {{ $services := where (where .Site.RegularPages "Type" "services") ".Params.featured" true }}
-      {{ range first 6 (sort $services ".Params.weight") }}
+      {{ $parks := where (where .Site.RegularPages "Type" "parks") ".Params.featured" true }}
+      {{ range first 6 (sort $parks ".Params.weight") }}
       <div class="col-12 col-md-4 mb-1">
         {{ .Render "summary" }}
       </div>
@@ -50,7 +48,7 @@
     {{ if not .Site.Params.homepage.hide_view_all_services }}
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services/" | relURL }}">View All Services</a>
+        <a class="button button-primary" href="{{ "parks/" | relURL }}">View All Services</a>
       </div>
     </div>
     {{ end }}
@@ -58,29 +56,40 @@
 </div>
 {{end}}
 
-{{if .Site.Data.features}}
-<div class="strip strip-grey">
-  <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
-    <div class="row justify-content-center">
-      {{ range .Site.Data.features }}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {{ if .image }}
-          <div class="feature-image"><img alt="{{ .Title }} logo" src="{{ .image | relURL }}" /></div>
-          {{ end }}
-          <h2 class="feature-title">{{ .title }}</h2>
-          <div class="feature-content">
-            <p>{{ .description }}</p>
+<!-- start artcile -->
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        {{range where .Site.Pages "Type" "=" "sub-content"}}
+        <h1 class="title" id="how-to">{{.Title | safeHTML }}</h1>
+        <div class="content">{{.Content}}
+          <!-- read more button -->
+          <div class="next-button">
+            <div class="call-box-bottom">
+              <a href="parks/sadjankakrala" class="button">explore parks</a>
+            </div>
           </div>
         </div>
+        {{ end }}
+
       </div>
-      {{end}}
     </div>
   </div>
 </div>
-{{end}}
+<!-- end article -->
 
 {{ end }}
 
 {{ define "footer_js" }}
+<!-- start scripts etc -->
+{{ $library := resources.Get "js/libs/library.js" }}
+{{ $services := resources.Get "js/pages/services.js" }}
+{{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
+{{ if .Site.IsServer }}
+  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+  {{ end }}
+<!-- end scripts etc. -->
 {{ end }}
