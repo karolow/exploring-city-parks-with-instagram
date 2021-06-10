@@ -97,8 +97,251 @@ body:after {
   }
   h2 {
   font-family: $font-family-heading;
+  font-size: 23px;
+  margin-bottom: 18px;
   }
   h3 {
-  font-family: $font-family-heading;
+  font-family: $font-family-base;
+  font-size: 12px;
+  line-height: 1.32;
+  font-weight: normal;
+  font-style: italic;
+  color: $steel;
+  margin-top: -25px;
   }
+  h6 {
+  font-family: $font-family-base;
+  font-size: 12px;
+  line-height: 1.32;
+  font-weight: normal;
+  font-style: normal;
+  color: $steel;
+  }
+  table {
+  font-size: 16px;
+  color: $steel;
+  }
+}
+
+.footnotes {
+  font-size: 12px;
+  line-height: 1.32;
+}
+
+.footnotes p {
+  margin-bottom: 0;
+}
+
+h5 {
+font-size: 1.6rem;
+line-height: 1.4;
+margin-bottom: 40px;
+font-weight: 400;
+color: rgb(104, 104, 104);
+}
+
+// scroll down hand on main page
+
+#scroll-down-hand {
+	float:left;
+	display: inline-block;
+	width:8%;
+	margin-right: 6%;
+	font-size: 2.5em;
+	color: #f24088;
+}
+#scroll-down-hand-img {
+  width: 0.5em;
+  position: relative;
+  top: -0.28em;
+}
+
+#scroll-down-text {
+	float:left;
+	display: inline-block;
+	width: 85%;
+}
+@media (min-width: 768px) {
+	#scroll-down-text {
+		width: 70%;
+	}
+	#scroll-down-hand {
+		margin-right: 0;
+	}
+}
+
+
+// svg charts
+
+#sad-janka-categories-correlation {
+  margin-top: 20px;
+}
+
+#cc_logo {
+  margin-bottom: 20px;
+}
+
+#mib_logo {
+  margin-top: 20px;
+}
+
+// parks summaries on the main page
+.service-content-img {
+  width: 15%;
+  margin-right: 4%;
+  float: left;
+  /* clear: both; */
+  border-radius: 100px;
+}
+.service-content-text {
+  float: left;
+  width: 80%;
+}
+.read-more {
+  color: #f24088;
+  font-size: 1.2em;
+  position: absolute;
+  padding-left: 0.3em;
+}
+
+// radar charts
+/* charts sizing for embeding on #BratislavaParks, change if used elsewhere */
+
+.radar-container {
+	width:100%;
+	margin-bottom: 60px;
+	margin-top: 30px;
+}
+
+.radar-container .radar {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.seasons-radar-highlighted {
+	max-width: 195px;
+	vertical-align: top;
+}
+
+.seasons-radar-rest {
+	max-width: 390px;
+}
+
+
+/* keep highlighted chart the same width as rest on mobile */
+@media (max-width: 410px) {
+	.seasons-radar-highlighted {
+		margin-right: 50%;
+	}
+}
+
+
+/* make it all a bit bigger when there is more space */
+@media (min-width: 800px) {
+
+	.seasons-radar-highlighted {
+		max-width: 240px;
+	}
+
+	.seasons-radar-rest {
+		max-width: 480px;
+	}
+}
+
+
+/* chart styles */
+.seasons-radar .typo {
+	font-family:Helvetica,Arial,sans-serif,-apple-system;
+	font-size:10px;
+	fill:#5C5A5A;
+}
+
+.seasons-radar .park-name {
+	fill:#F24088;
+	font-size:12px;
+}
+
+.seasons-radar .radar:hover .park-name,
+.seasons-radar .radar:active .park-name,
+.seasons-radar-highlighted .park-name {
+	font-weight:bold;
+	font-size: 12px;
+	position: relative;
+}
+
+.seasons-radar .radar .value {
+	visibility: hidden;
+	opacity: 0;
+}
+
+.seasons-radar .radar:hover .value,
+.seasons-radar .radar:active .value {
+	visibility: visible;
+	opacity: 1;
+}
+
+.seasons-radar .hidden-circle {
+	fill: #FFFFFF;
+	opacity:0;
+}
+
+.seasons-radar .dot {
+	visibility: hidden;
+	fill: #FFFFFF;
+	opacity: 0;
+}
+
+.seasons-radar .radar:hover .dot,
+.seasons-radar .radar:active .dot {
+	visibility: visible;
+	opacity: 1;
+}
+
+.seasons-radar .radar .radar-polygon {
+	stroke:#F24088;
+	fill:none;
+}
+
+.seasons-radar .radar:hover .radar-polygon,
+.seasons-radar .radar:active .radar-polygon,
+.seasons-radar-highlighted .radar .radar-polygon {
+	fill:#F24088;
+	mix-blend-mode: multiply;
+}
+
+.seasons-radar .radar:hover .value,
+.seasons-radar .radar:active .value {
+	font-size: 11px;
+}
+
+.seasons-radar .radar:hover .label,
+.seasons-radar .radar:active .label {
+	font-size: 11px;
+}
+
+.seasons-radar .scale-line {
+	fill:none;
+	stroke:#F2F2F2;
+}
+
+.seasons-radar .radar:hover .scale-line,
+.seasons-radar .radar:active .scale-line {
+	stroke:#E0E0E0;
+}
+
+.seasons-radar .value,
+.seasons-radar .label,
+.seasons-radar .radar-polygon,
+.seasons-radar .park-name,
+.seasons-radar .dot,
+.seasons-radar .scale-line {
+	transition: all 0.4s ease-in-out;
+}
+
+.next-button {
+  margin-top: 45px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
 }
