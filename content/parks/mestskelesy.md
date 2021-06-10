@@ -61,4 +61,4 @@ Simultaneously, of all the locations examined, the city forest has the lowest ra
 3. Many users like to put their bikes into the spotlight – Google Vision recognizes small details such as bicycle wheels, frames and other “equipment and supplies” in a number of posts.
 
 [^1]: Labels detected by the Google Vision pattern recognition tool.
-[^2]: The data presented in this article is vaild as of April 1, 2021.
+[^2]: The data presented in this article is valid as of April 1, 2021.
