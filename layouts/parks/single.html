@@ -7,10 +7,21 @@
       <div class="service service-single">
         <h1 class="title">{{.Title | safeHTML }}</h1>
         <div class="content">{{.Content}}</div>
+
+        <!-- read more button -->
+        {{if .PrevInSection}}
+        <div class="next-button">
+          <div class="call-box-bottom">
+            <a href="{{.PrevInSection.Permalink}}" class="button">next park</a>
+          </div>
+        </div>
+        {{end}}
+
       </div>
     </div>
   </div>
 </div>
+
 {{ end }}
 
 {{ define "footer_js" }}

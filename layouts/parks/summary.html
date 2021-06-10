@@ -1,0 +1,19 @@
+<div class="service service-summary">
+  <div class="service-content">
+      <img class="service-content-img" itemprop="thumbnail" src="{{ .Params.image | relURL }}" alt="Photo of {{ .Title }}">
+        <div class="service-content-text">
+          <h2 class="service-title">
+            <a href="{{ .Permalink }}">{{ .Title | safeHTML }}</a>
+          </h2>
+          {{ if .Params.summary }}
+          <p>{{ .Params.summary }}<a href="{{ .Permalink }}"><span class="read-more">»</span></a></p>
+
+          {{ else }}
+
+          <p>{{ .Content | plainify | htmlUnescape | truncate 120 "…" }}<a href="{{ .Permalink }}"><span class="read-more">»</span></a></p>
+          {{ end }}
+
+        </div>
+
+  </div>
+</div>
