@@ -3,7 +3,6 @@ title: "How to scrape and study thousands of Instagram posts?"
 date: 2018-11-28T15:14:39+10:00
 featured: false
 draft: false
-weight: 2
 type: sub-content
 ---
 
@@ -11,7 +10,8 @@ type: sub-content
 
 **>>>>>> This visualisation will allow you to preview the pictures in a tooltip**
 
-{{< svg "static/images/insta/dataviz/test_instagrammable_posts_2020.svg" >}}
+<!-- {{< svg "static/images/insta/dataviz/test_instagrammable_posts_2020.svg" >}} -->
+![Horský park](/images/insta/dataviz/test_instagrammable_posts_2020.png)
 
 ### The most instagrammable posts published from Bratislava parks in 2020[^2].
 
