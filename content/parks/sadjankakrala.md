@@ -66,7 +66,7 @@ With lockdown and reduced mobility, public parks and forests in many places have
 
 According to data from Google Maps, activity in Bratislava&nbsp;I parks in April 2021 has in fact dropped by 22% compared to pre-covid figures. At the same time, it grew in neighbouring areas by as much as 4% (BRA II), 41% (BRA III) and 20% (BRA IV)[^3].
 
-This seems quite obvious, since people have vacated downtown offices and schools, settling into residential districts or more suburban locations. However, among similar parks in central Bratislava[^4] – like Horský park or [Medická záhrada](/services/Medickázahrada/) – only Sad Janka Kráľa has clearly lost some of its Instagram followers.
+This seems quite obvious, since people have vacated downtown offices and schools, settling into residential districts or more suburban locations. However, among similar parks in central Bratislava[^4] – like Horský Park or [Medická Záhrada](/services/Medickázahrada/) – only Sad Janka Kráľa has clearly lost some of its Instagram followers.
 
 {{< datawrapper id="datawrapper-chart-erDv7" margin="-10px 0 15px 0" src="https://datawrapper.dwcdn.net/erDv7/6/" >}}
 
@@ -74,7 +74,7 @@ This seems quite obvious, since people have vacated downtown offices and schools
 
 Why the drop in popularity? While we are unaware of the motivations of Instagrammers visiting the park, we can suspect that Sad Janka Kráľa has fallen victim of its previous wide appeal among vastly diverse audiences.
 
-This is confirmed by the proportion of mutual park goers who published posts from multiple locations. Only 14.5% of Instagrammers at Sad Janka Kráľa also posted from other parks, which stands in stark contrast to 38.3% at [Medická záhrada](/services/Medickázahrada/), a similar downtown leisure spot.
+This is confirmed by the proportion of mutual park goers who published posts from multiple locations. Only 14.5% of Instagrammers at Sad Janka Kráľa also posted from other parks, which stands in stark contrast to 38.3% at [Medická Záhrada](/services/Medickázahrada/), a similar downtown leisure spot.
 
 Such a low figure could be interpreted as loyalty to only one park. More likely, however, many of these people may have well been one-time visitors, possibly tourists or customers of the neighbouring shopping precinct.
 

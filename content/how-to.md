@@ -11,7 +11,7 @@ type: sub-content
 **>>>>>> This visualisation will allow you to preview the pictures in a tooltip**
 
 <!-- {{< svg "static/images/insta/dataviz/test_instagrammable_posts_2020.svg" >}} -->
-![Horský park](/images/insta/dataviz/test_instagrammable_posts_2020.png)
+![Horský Park](/images/insta/dataviz/test_instagrammable_posts_2020.png)
 
 ### The most instagrammable posts published from Bratislava parks in 2020[^2].
 
@@ -23,7 +23,7 @@ Scrolling through feeds and exploring hashtags can be endless fun for city resea
 
 You may be wondering what a post obtained from Instagram looks like. What information does it contain?[^4] How could it be useful to city researchers?
 
-![Horský park](/images/insta/instagram/886870413042639991.jpg)
+![Horský Park](/images/insta/instagram/886870413042639991.jpg)
 
 {{< datawrapper-table id="datawrapper-chart-XoYOS" margin="-15px 0 30px 0" src="https://datawrapper.dwcdn.net/XoYOS/7/" >}}
 
@@ -34,9 +34,9 @@ Intent on ensuring our tool was fit for purpose, we selected five public parks i
 Start exploring the parks by clicking on links, or keep reading about how we crunched the data.
 
 1. [Sad Janka Kráľa]({{< ref "parks/sadjankakrala" >}} "Sad Janka Kráľa")
-2. [Horský park]({{< ref "parks/horskypark" >}} "Horský park")
-3. [Medická záhrada]({{< ref "parks/medickazahrada" >}} "Medická záhrada")
-4. [Mestské lesy]({{< ref "parks/mestskelesy" >}} "Mestské lesy")
+2. [Horský Park]({{< ref "parks/horskypark" >}} "Horský Park")
+3. [Medická Záhrada]({{< ref "parks/medickazahrada" >}} "Medická Záhrada")
+4. [Mestské Lesy]({{< ref "parks/mestskelesy" >}} "Mestské Lesy")
 5. [Jazero Rohlík]({{< ref "parks/jazerorohlik" >}} "Jazero Rohlík")
 
 # Topic discovery and basic exploration
