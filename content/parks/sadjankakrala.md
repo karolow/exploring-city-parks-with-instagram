@@ -4,7 +4,7 @@ date: 2021-04-25T12:00:00+1:00
 draft: false
 featured: true
 weight: 1
-image: 'images/insta/instagram/summary/1034698369928472267.jpg'
+image: 'images/insta/instagram/summary/2437391401569689872.jpg'
 summary: "Bratislava’s largest central city park allowing visitors to enjoy nature without missing the city’s vibrancy"
 ---
 

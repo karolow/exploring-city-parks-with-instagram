@@ -4,7 +4,7 @@ date: 2018-11-28T15:15:26+10:00
 featured: true
 draft: false
 weight: 5
-image: 'images/insta/instagram/summary/2142171057570834613.jpg'
+image: 'images/insta/instagram/summary/2509736385366105546.jpg'
 summary: 'A small, cozy lake amid a residential area and a hospital complex in the city district of Ružinov'
 ---
 
