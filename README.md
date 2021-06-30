@@ -1,4 +1,4 @@
-#Exploring the city parks with Instagram
+# Exploring the city parks with Instagram
 
 An online report from an experimental research initiative investigating Bratislava parks through Instagram data.
 
